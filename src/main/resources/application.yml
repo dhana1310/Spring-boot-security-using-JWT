@@ -1,0 +1,10 @@
+
+jwt:
+  config:
+    secretKey: someStrongTokensomeStrongTokensomeStrongTokensomeStrongToken
+    validityInDays: 7
+    issuer: My-spring-token-issuer
+    authoritiesKey: authorities
+    tokenPrefix: 'Bearer '
+    tokenPrefixForTokenGeneration: 'Basic '
+
